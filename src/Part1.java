@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
+
+    // input
     String str1 ;
     String str2 ;
     Scanner scanner = new Scanner(System.in);
@@ -10,6 +12,7 @@ class Main {
     str1 = scanner.nextLine();
     System.out.println("String 2: ");
     str2 = scanner.nextLine();
+    /// To lower case
     
     str1 = str1.toLowerCase();
     str2 = str2.toLowerCase();
